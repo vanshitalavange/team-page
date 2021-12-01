@@ -58,14 +58,14 @@ h1 {
 }
 .member__name {
   font-family: poppins;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 27px;
   margin-top: 0.5rem;
 }
 .member__position {
   font-family: PT Serif;
-  font-size: 18px;
+  font-size: 13px;
   line-height: 16px;
   font-weight: 400;
   height: fit-content;
