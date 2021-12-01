@@ -126,3 +126,68 @@ h1 {
 .page__footer a {
   color: #a9a9a9;
 }
+
+@media (max-width: 700px) {
+  .page {
+    width: 100vw;
+  }
+  .page__details {
+    width: 91vw;
+  }
+  .page__info {
+    width: 100%;
+  }
+  .info__heading {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .info__desc {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .page__heading {
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+  }
+  .page__team {
+    width: 94vw;
+    margin-bottom: 0;
+    justify-content: space-around;
+    align-content: flex-start;
+  }
+  .member {
+    flex-basis: 47%;
+  }
+  img {
+    width: 40vw;
+  }
+
+  .member-three .member__name,
+  .six .member__name {
+    margin-left: 0;
+  }
+  .member-info-three,
+  .member-info-six {
+    margin-left: 0%;
+  }
+  .member-info-five {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .member-info-two,
+  .member-info-four,
+  .member-info-six {
+    margin-top: 50%;
+  }
+  .member-info-two,
+  .member-info-four,
+  .member-info-six {
+    margin-left: 5%;
+  }
+  .member-two .member__name,
+  .member-four .member__name,
+  .member-six .member__name {
+    margin-left: 10%;
+  }
+}
