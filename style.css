@@ -61,4 +61,11 @@ h1 {
   font-size: 1rem;
   font-weight: 600;
   line-height: 27px;
+  margin-top: 0.5rem;
+}
+.member__position {
+  font-family: PT Serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
 }
