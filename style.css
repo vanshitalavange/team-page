@@ -41,7 +41,7 @@ h1 {
 }
 
 .page__info {
-  width: 35%;
+  width: 45%;
 }
 .info__heading {
   font-family: poppins;
@@ -51,7 +51,7 @@ h1 {
 }
 .info__desc {
   font-family: poppins;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   margin-top: 0.5rem;
