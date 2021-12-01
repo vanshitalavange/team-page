@@ -68,4 +68,47 @@ h1 {
   font-size: 13px;
   line-height: 16px;
   font-weight: 400;
+  height: fit-content;
+  writing-mode: vertical-lr;
+  margin-left: 0.5em;
+}
+
+.page__team {
+  margin-top: 5em;
+
+  width: 62vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.member-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.member {
+  flex-basis: 33.33%;
+}
+.member-info-two,
+.member-info-five {
+  margin-top: 35%;
+}
+.member-info-two,
+.member-info-five {
+  margin-left: 10%;
+}
+.member-two .member__name,
+.member-five .member__name {
+  margin-left: 10%;
+}
+.member-three .member__name,
+.member-six .member__name {
+  margin-left: 20%;
+}
+.member-info-three,
+.member-info-six {
+  margin-left: 20%;
 }
