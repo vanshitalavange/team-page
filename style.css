@@ -129,13 +129,13 @@ h1 {
 
 @media (max-width: 700px) {
   .page {
-    width: 100vw;
+    width: 98vw;
   }
   .page__details {
-    width: 91vw;
+    width: 94vw;
   }
   .page__info {
-    width: 100%;
+    width: 92%;
   }
   .info__heading {
     font-size: 18px;
@@ -151,7 +151,7 @@ h1 {
     letter-spacing: -0.045em;
   }
   .page__team {
-    width: 94vw;
+    width: 92vw;
     margin-bottom: 0;
     justify-content: space-around;
     align-content: flex-start;
