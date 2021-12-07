@@ -4,9 +4,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  
+  
 }
 img {
   width: 15vw;
@@ -19,11 +18,11 @@ h1 {
   margin-block-start: 0.35em;
 }
 .page {
-  margin-top: 5em;
+  margin-top: 5em; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: flex-start;
+  gap:10vh;
 }
 
 .page__details {
@@ -74,10 +73,8 @@ h1 {
 }
 
 .page__team {
-  margin-top: 5em;
-
+  
   width: 62vw;
-  height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -114,14 +111,13 @@ h1 {
 }
 
 .page__footer {
-  height: 40px;
-  margin-top: 10rem;
   text-align: center;
   font-family: Montserrat;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   color: #a9a9a9;
+  margin-bottom: 1rem;
 }
 .page__footer a {
   color: #a9a9a9;
@@ -130,6 +126,8 @@ h1 {
 @media (max-width: 700px) {
   .page {
     width: 98vw;
+    margin-top: 3em;
+    gap:4vh;
   }
   .page__details {
     width: 94vw;
@@ -189,5 +187,8 @@ h1 {
   .member-four .member__name,
   .member-six .member__name {
     margin-left: 10%;
+  }
+  .page__footer{
+    margin-top:10vh;
   }
 }
