@@ -36,7 +36,13 @@
 
 ## Overview
 
-![screenshot](images/team-combined.png)
+- Desktop view
+
+  ![screenshot](images/team-desktop.png)
+
+- Mobile view
+
+  ![screenshot](images/team-mobile.png)
 
 
 ### Built With
